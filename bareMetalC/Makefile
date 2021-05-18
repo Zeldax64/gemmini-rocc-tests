@@ -18,7 +18,8 @@ tests = \
 	tiled_matmul_ws \
 	tiled_matmul_cpu \
 	tiled_matmul_option \
-	template
+	template \
+	matadd
 
 tests_baremetal = $(tests:=-baremetal)
 ifdef BAREMETAL_ONLY
